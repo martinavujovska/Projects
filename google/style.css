@@ -1,30 +1,40 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-    margin-top:150px;
+    height: calc(100% - 100px);
+    margin-top:50px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 50px;
+}
+
+header {
+	position: fixed;
+    top:0%;
+    width:100%;
+    display:flex;
+    padding: 10px 20px 10px 20px;
+    height: 50px;
+    background-color:whitesmoke;
+}
+
+header a:link, a:visited, a:active {
+    color: #2a2a2a;
+    font-family: arial, sans-serif;
+    font-size:17px;
+    text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
 }
 
 #search-bar{
     border-radius:30px;
-    width:700px;
     height:60px;
     border: solid 2px rgb(227, 218, 218);
-    padding:20px;
-    margin:30px;
     margin-left:auto;
     margin-right:auto;
 }
 
 #search-bar:hover{
     border-color: rgb(150, 145, 145);
-}
-
-img{
-    padding-left:170px;
 }
 
 .buttons{
@@ -48,16 +58,6 @@ img{
     background-color:rgb(116, 158, 225);
 }
 
-.fa{
-    padding: 30px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.fa:hover{
-    background-color:rgb(217, 205, 205);
-    border-radius:20px;
-}
 
 .fa-envelope{
     color:rgb(30, 102, 180);
@@ -92,62 +92,35 @@ footer {
 	left:0px;
 	right:0px;
 	background:#f3f3f3;
-	padding-top:22px;
-	border-top: 1px solid #e9e9e9;
+	padding: 10px 20px 10px 20px;
+    height: 50px;
 }
 
-.leftlinks {
-	position: relative;
-	bottom:12px;
-	left:18px;
-	padding-right:15px;
-	padding-left:15px;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
 }
 
-.rightlinks {
-	position: relative;
-	bottom:9px;
-	float:right;
-	right:18px;
-	padding-right:15px;
-	padding-left:15px;
+.user{
+    width:30px;
+    margin-left: 5px;
+    margin-top:0px;
 }
 
-header {
-	position: fixed;
-	top:12px;
-	right:30px;
+.nl-search {
+    width:700px;
+    position: relative;
+}
+.nl-search-icon {
+    position: absolute;
+    top: 21px;
+    left: 20px;
 }
 
-header a:link, a:visited, a:active {
-    color: #2a2a2a;
-    font-family: arial, sans-serif;
-    font-size:15px;
-    text-decoration:none;
-	margin-right:5px;
-	margin-left:5px;
-	top:-10px;
+.user-img{
+    width:30px;
 }
 
-header a:hover {
-	text-decoration:underline;
-}
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; 
-    bottom: 60px;
-    right: 30px; 
-    z-index: 99;  
-    border: none; 
-    background-color: rgb(75, 140, 232); 
-    color: white; 
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px;
-}
-  
-#myBtn:hover {
-    background-color: rgb(38, 68, 138); 
-}

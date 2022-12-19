@@ -14,12 +14,23 @@
 </head>
 </head>
 <body>
+    <header>
+        <a href="">Gmail</a>
+        <a href="">Images</a>
+        <a href="">Login</a>
+    </header>
 
     <div class="container">
-        <!-- <img src="./img/R.png"> -->
         <div class="form-outline">
+            <div class="wrapper">
             <img src="./img/google-logo.png" style="width:500px;">
             <input type="search" id="search-bar" class="form-control" placeholder="Search Google..." aria-label="Search"/> 
+        </div>
+          <div class="buttons">
+            <button id="btn-one">Google Search</button>
+            <button id="btn-two">I'm feeling lucky</button>
+          </div>
+
             <i class="fa fa-car" style="font-size:48px;"></i>
             <i class="fa fa-regular fa fa-envelope" style="font-size:48px"></i>
             <i class="fa fa-solid fa-gift" style="font-size:60px"></i>
@@ -35,5 +46,83 @@
             <i class="fa fa-solid fa-sliders" style="font-size:48px"></i>
         </div>
     </div>   
+
+    <div class="card-columns">
+        <div class="card">
+          <img src="./img/billy-idol.png" class="card-img-top" alt="..." style="padding:20px;">
+          <hr>
+          <div class="card-body">
+            <h5 class="card-title">Billy Idol is trending even after the 80s are long gone!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>A well-known quote, contained in a blockquote element.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>I paint flowers so they don't die</p>
+              <small>
+                <cite>-Frida Kahlo</cite>
+              </small>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Some quote </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    <br/>
+    <br/>
+    <br/>
+    <footer>
+        <a class="leftlinks" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+        <a class="leftlinks" href="https://www.google.com/services/?fg=1">Business</a>
+        <a class="leftlinks" href="https://www.google.com/intl/en/about/">About</a>
+        <a class="rightlinks" href="https://www.google.com/preferences?hl=en">Settings</a>
+        <a class="rightlinks" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+    <script src="./app.js"></script>
 </body>
 </html>

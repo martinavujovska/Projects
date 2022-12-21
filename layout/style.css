@@ -11,23 +11,30 @@
     position: fixed; 
     top: 55px; 
     left: 0; 
-    align-items:center;
-    padding:10px;
     background-color: whitesmoke;
+    width: 150px;
 }
 
-.sidenav a {
-    padding: 30px 8px 6px 16px;
+.nl-sidenav-item {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     font-size: 25px;
-    color: #1f1e1e;
-    display: block;
-}
-  
-.sidenav a:hover {
-    color: #6c5f5f;
+    color: #1f1e1e; 
+    transition: 0.5s ease-in-out;   
 }
 
+
+.nl-sidenav-item:hover {
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #1f1e1e;
+    color: white;
+}
+  
 .main {
     margin-left: 160px; 
     padding: 0px 10px;
@@ -43,28 +50,9 @@ img{
     align-items:center;
     margin-right:0 auto;
     padding:30px;
-    padding-top:100px;
     margin-top: 55px;
+    margin-left: 150px;
     height: calc(100% - 55px);
-    padding-top: 100px; 
-    margin-left: 130px;
-    width: (100% - 200px);
+    width: (100% - 150px);
 }
 
-/* #about{
-    display:none;
-}
-
-#services{
-    display:none;
-}
-
-#clients{
-    display:none;
-}
-
-#contacts{
-    display:none;;
-} 
-
-   */

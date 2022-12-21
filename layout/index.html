@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
     crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -23,32 +24,34 @@
             </nav>
         </div>
         <div class="article">
-            <div class="about">
-                <h1>about</h1>
+            <div class="about" id="about">
+                <h1>About</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
                 atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
             </div>
-            <div class="services">
-                <h1>services</h1>
+            <div class="services" id="services">
+                <h1>Services</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
                 atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
             </div>
-            <div class="clients">
-                <h1>clients</h1>
+            <div class="clients" id="clients">
+                <h1>Clients</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
                 atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
             </div>
-            <div class="contacts">
-                <h1>contacts</h1>
+            <div class="contacts" id="contacts">
+                <h1>Contacts</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
                 atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
             </div>
         </div>
             <div class="sidenav">
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#clients">Clients</a>
-                <a href="#contacts">Contact</a>
+                <div class="d-flex flex-column w-100">
+                    <a href="#about" class="nl-sidenav-item" onclick="showHide('about')">About</a>
+                    <a href="#services" class="nl-sidenav-item" onclick="showHide('services')">Services</a>
+                    <a href="#clients" class="nl-sidenav-item" onclick="showHide('clients')">Clients</a>
+                    <a href="#contacts" class="nl-sidenav-item" onclick="showHide('contacts')">Contact</a>
+                </div>
           </div>
     </div>
 

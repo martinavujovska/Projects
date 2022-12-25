@@ -1,3 +1,6 @@
+const burgerMenu = document.querySelector("#burgerMenu");
+const sideNav = document.querySelector("#sideNav");
+
 arr = ['about', 'services', 'clients', 'contacts'];
 
 for(let i=0;i<arr.length;i++) {
@@ -30,3 +33,8 @@ function showHide(value) {
         }
     }
 }
+
+burgerMenu.addEventListener("click", function(){
+    sideNav.classList.toggle("sidenav-active");
+    // document.querySelector(".article")
+});

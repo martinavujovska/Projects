@@ -1,5 +1,5 @@
-let cookieName = "Newstopia";
-let cookieValue = "Newstopia Cookies";
+let cookieName = "Policy Read";
+let cookieValue = 'true';
 let cookieExpire = 30;
 const cookiePopup = document.getElementById("cookiePopup");
 let acceptCookie = document.getElementById("acceptCookie");
@@ -37,13 +37,13 @@ let getCookie = function (cookieName) {
     return "";
 }
 
-// // Check if cookie is set or not
-// let checkCookie = function () {
-//     let check = getCookie(cookieName);
-//     if (check == "") {
-//         cookiePopup.style.display = "block";
-//     } else {
-//         cookiePopup.style.display = "none";
-//     }
-// }
-// checkCookie();
+// Check if cookie is set or not
+let checkCookie = function () {
+    let check = getCookie(cookieName);
+    if (check == "") {
+        cookiePopup.style.display = "block";
+    } else {
+        cookiePopup.style.display = "none";
+    }
+}
+checkCookie();

@@ -1,0 +1,13 @@
+.cookie{
+    background:rgba(7, 1, 56, 0.7);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:150px;
+    margin:0 auto;
+    text-align:center;
+    font-size: 17px;
+    font-weight:bold;
+    color:white;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}

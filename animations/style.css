@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+
+.container{
+    max-width:930px;
+    height:500px;
+    background-color:gray;
+    position:relative;
+
+}
+
+#box{
+    width: 100px;
+    height:100px;
+    background-color: rgb(133, 19, 38);
+    position:absolute;
+
+}

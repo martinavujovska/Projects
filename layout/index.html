@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="header">
@@ -18,42 +20,59 @@
                 <div id="burgerMenu">
                     <img src="./img/menu.png">
                 </div>
-                <div class="sidenav" id="sideNav">
-                    <div class="d-flex flex-column w-100">
-                        <a href="#about" class="nl-sidenav-item" onclick="showHide('about')">About</a>
-                        <a href="#services" class="nl-sidenav-item" onclick="showHide('services')">Services</a>
-                        <a href="#clients" class="nl-sidenav-item" onclick="showHide('clients')">Clients</a>
-                        <a href="#contacts" class="nl-sidenav-item" onclick="showHide('contacts')">Contact</a>
-                    </div>
-                </div>
             </nav>
-          </div>
         </div>
-      </div>
+        <div class="sidenav" id="sideNav">
+            <div class="d-flex flex-column w-100">
+                 <a href="#about" class="nl-sidenav-item" onclick="showHide('about')"><i class="fa fa-regular fa fa-address-card"></i>About</a>
+                </i><a href="#services" class="nl-sidenav-item" onclick="showHide('services')"><i class="fa fa-solid fa fa-code"></i>Services</a>
+                <a href="#clients" class="nl-sidenav-item" onclick="showHide('clients')"><i class="fa fa-solid fa fa-users"></i>Clients</a>
+                <a href="#contacts" class="nl-sidenav-item" onclick="showHide('contacts')"><i class="fa fa-regular fa fa-envelope"></i>Contact</a>
+            </div>
+        </div>
+
         <div class="article">
             <div class="about" id="about">
                 <h1>About</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
-                atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt.</p>
             </div>
             <div class="services" id="services">
                 <h1>Services</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
-                atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt.</p>
             </div>
             <div class="clients" id="clients">
                 <h1>Clients</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
-                atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt.</p>
             </div>
             <div class="contacts" id="contacts">
                 <h1>Contacts</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim voluptatibus, 
-                atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ducimus, dolores cumque itaque enim
+                    voluptatibus,
+                    atque eos temporibus nulla officiis vero! Mollitia qui, odio quae nisi esse ipsam quibusdam
+                    nesciunt.</p>
             </div>
         </div>
     </div>
 
     <script src="./app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,128 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 30px;
+            font-family: 'Questrial', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        img {
+            width: 200px;
+            margin-bottom: 40px;
+            margin-top: 30px;
+        }
+
+        .container {
+            width: 900px;
+            background-color: whitesmoke;
+            height: 1210px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #from {
+            float: left;
+            padding: 5px 0px 0px 40px;
+            ;
+        }
+
+        #to {
+            float: right;
+            padding: 5px 40px 0px 0px;
+
+        }
+
+        .information {
+            width: 600px;
+            height: 400px;
+            background-color: white;
+            margin-top: 40px;
+            margin-left: 140px;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: left;
+            font-size: 20px;
+            /* background-image: url('./img/Screenshot_1.png'); */
+        }
+
+        .summary {
+            width: 600px;
+            height: 150px;
+            background-color:white;
+            margin-top: 40px;
+            margin-left: 140px;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: left;
+             /* background-image: url('./img/Screenshot_2.png');  */
+        }
+
+        .details {
+            margin-top: 90px;
+        }
+
+        #receipt {
+            width: 800px;
+        }
+
+        .travellers {
+            margin-top: 30px;
+        }
+
+        .ticket {
+            margin-top: 30px
+        }
+
+        .link {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="./img/Book'n'Plan.png">
+        <h2>[UserName], here is your ticket!</h2>
+        <td>&nbsp;</td>
+
+        <div class="information">
+
+            <h4 id="from">From:[destination]</h4>
+            <h4 id="to">To:[destination] </h4>
+
+            <div class="details">
+                <span>🕥 [Sunday, July 18, 2023] from [7:00PM] to [10:00PM]</span>
+            </div>
+
+            <div class="ticket">
+                <span>📃 Ticket: </span>
+            </div>
+
+            <div class="travellers">
+                <span>🙂 Travellers: [Number of travellers]</span>
+            </div>
+            <div class="link">
+                <em>✆ Informations regarding the trip can be found at:</em>
+                <a href="http://transport.norliga.com/home" target="_blank">transport.norliga.com</a>
+            </div>
+        </div>
+
+
+        <div class="summary">
+            <h3>Order Summary</h3>
+            <span>Time Of Purchase: [Time]</span>
+            <hr />
+            <span>Order No. [Order no.]</span>
+        </div>
+
+        <img src="./img/Receipt_04.png" id="receipt">
+        <div>
+            <em>Liðagøta 2, FO 100 Tórshavn, Faroe Islands. ‐ Tel +298 205060 ‐ Web norliga.com ‐ VAT 602450</em>
+        </div>
+
+</body>
+
+</html>

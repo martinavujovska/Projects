@@ -2,7 +2,6 @@ const burgerMenu = document.querySelector("#burgerMenu");
 const sideNav = document.querySelector("#sideNav");
 const article = document.querySelector(".article")
 
-
 arr = ['about', 'services', 'clients', 'contacts'];
 
 showHide("about");
@@ -28,6 +27,5 @@ burgerMenu.addEventListener("click", function () {
     sideNav.classList.toggle("sidenav-active");
     article.classList.toggle("article-push");
 });
-
 
 

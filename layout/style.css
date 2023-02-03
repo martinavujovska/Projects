@@ -16,7 +16,7 @@
     top: 55px;
     left: 0;
     background-color: whitesmoke;
-    width: 150px;
+    width: 0;
     opacity: 0;
     transition: width 0.3s ease-in-out, opacity 0.2s ease-in-out;
     /* transition: all 0.3s ease-in-out; */
@@ -25,22 +25,19 @@
 
 .sidenav-active {
     opacity: 1;
-    width: 150px;
-
+    width: 200px;
 }
 
 .nl-sidenav-item {
     width: 100%;
-    padding: 10px;
+    padding: 10px 5px 10px 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-decoration: none;
     font-size: 23px;
     color: #1f1e1e;
     transition: 0.3s ease-in-out;
 }
-
 
 .nl-sidenav-item:hover {
     text-decoration: none;
@@ -71,18 +68,10 @@ img {
 }
 
 .article-push {
-    margin-left: 150px;
-    width: calc(100% - 150px);
+    margin-left: 200px;
+    width: calc(100% - 200px);
 }
 
-.fa {
-    padding: 5px;
-}
-
-.navbar-text {
-    display:none;
-}
-
-.navbar-icons {
-    display:block;
+.nl-icon{
+    padding:5px;
 }

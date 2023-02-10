@@ -1,18 +1,12 @@
 body {
     margin: 0 auto;
     background-color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
-
+    background-image:url(./img/Ultra\ wide\ -\ 2.38.JPG);
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+    
 }
 
-.container {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    background: url(./img/Ultra\ wide\ -\ 2.38.JPG);
-    background-size: cover;
-}
 
 a {
     color: white;
@@ -23,12 +17,11 @@ a {
 a:hover {
     font-size: 1.4rem;
     transition: 0.2s;
-    color: rgb(73, 189, 152);
-
+    color: rgb(105, 125, 203);
 }
 
 .header {
-    background: rgba(16, 86, 199, 0.5);
+    background: rgba(58, 117, 211, 0.5);
     position: fixed;
     width: 100%;
     height: 100px;
@@ -58,60 +51,4 @@ ul {
 
 li {
     padding: 20px;
-}
-
-.text {
-    font-size: 3rem;
-    height: 300px;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    overflow: hidden;
-    width: 0;
-    animation: typing 3s forwards;
-    white-space: nowrap;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
-}
-
-.wrapper {
-    padding-top: 100px;
-    padding-left: 100px;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: flex-start;
-
-}
-
-.content-one {
-    width: 50%;
-    height: 400px;
-    ;
-    /* background-color:rgb(41, 200, 150); */
-}
-
-.content-two {
-    width: 40%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#mac {
-    width: 50%;
-}
-
-#bulb {
-    height: 500px;
 }

@@ -1,0 +1,118 @@
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.4rem;
+    transition: 0.2s;
+    color: rgb(105, 125, 203);
+}
+
+.header {
+    background: #021750;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    transition: 0.4s;
+    display: inline;
+    line-height: 50px;
+}
+
+.header.shrink {
+    height: 50px;
+    line-height: 10px;
+    background-color: #021750;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    padding: 20px;
+}
+
+.wrapper{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(../img/sky-clouds-4k-5k-2560x1440.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width:70%;
+    height:auto;
+    margin-top:90px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.div1{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.div2 {
+    margin-top: 30px;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.div3 {
+    margin-top:30px;
+    width:100%;
+    height:300px;
+}
+
+.div4 {
+    margin-top:30px;
+    width:100%;
+    height:300px;
+}
+
+#mac {
+    width:500px;
+    height:400px;
+}
+
+#ipad{
+    width:400px;
+}

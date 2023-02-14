@@ -1,0 +1,97 @@
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.4rem;
+    transition: 0.2s;
+    color: rgb(105, 125, 203);
+}
+
+.header {
+    background: #021750;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    transition: 0.4s;
+    display: inline;
+    line-height: 50px;
+}
+
+.header.shrink {
+    height: 50px;
+    line-height: 10px;
+    background-color: #021750;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    padding: 20px;
+}
+
+.wrapper{
+    width:100%;
+    height: auto;
+
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
+
+ .container { 
+    width:60%;
+    height: auto;
+    margin-top:100px;
+    background-color:whitesmoke;
+    flex-direction: column;
+} 
+
+.news-one {
+    border-bottom: 1px solid black;
+    padding:50px;
+    line-height: 2rem;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.news-two { 
+    border-bottom: 1px solid black;
+    padding:50px;
+    line-height: 2rem;
+}
+
+.news-three {
+    border-bottom: 1px solid black;
+    padding:50px;
+    line-height: 2rem;
+}
+
+.news-four { 
+    border-bottom: 1px solid black;
+    padding:50px;
+    line-height: 2rem;
+}
+

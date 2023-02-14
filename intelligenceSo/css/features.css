@@ -55,12 +55,15 @@ li {
     display:flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url(../img/sky-clouds-4k-5k-2560x1440.jpg); */
+    background-image: url(../img/sky-clouds-4k-5k-2560x1440.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.container{
+/* .container{
     width:70%;
     height:auto;
     margin-top:90px;
@@ -69,6 +72,7 @@ li {
     flex-direction: column;
     padding:20px;
     justify-content: space-between;
+    background-color: white;;
 }
 
 .div1{
@@ -78,12 +82,24 @@ li {
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     font-size: 1.5rem;
     text-align: center;
+    justify-content: space-evenly;
 }
 
-.div2 {
+.textWrap { 
+    width:30%;
+    height:auto;
+    align-self:center;
+    margin-bottom: 60px;
+    padding:20px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    /* border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 25px grey;
+}
+
+/* .div2 {
     margin-top: 30px;
     width:100%;
     height:auto;
@@ -91,9 +107,18 @@ li {
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.second-textWrap {
+    width:30%;
+    height:auto;
+    align-self:center;
+    margin-bottom: 60px;
+    padding:20px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
 .div3 {
@@ -114,5 +139,6 @@ li {
 }
 
 #ipad{
-    width:400px;
+    width:350px;
 }
+ */ 

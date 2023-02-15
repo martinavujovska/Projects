@@ -21,10 +21,10 @@ a:hover {
     background: #021750;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 70px;
     transition: 0.4s;
     display: inline;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 .header.shrink {
@@ -53,7 +53,6 @@ li {
 .wrapper{
     width:100%;
     height: auto;
-
     display:flex;
     align-items: flex-start;
     justify-content: center;
@@ -63,7 +62,7 @@ li {
  .container { 
     width:60%;
     height: auto;
-    margin-top:100px;
+    margin-top:70px;
     background-color:whitesmoke;
     flex-direction: column;
 } 
@@ -95,3 +94,8 @@ li {
     line-height: 2rem;
 }
 
+#logo{
+    max-width:100px;
+    height:20px;
+
+}

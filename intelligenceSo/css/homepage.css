@@ -25,13 +25,11 @@ a:hover {
     transition: 0.4s;
     display: inline;
     line-height: 30px;
-   
 }
 
 .header.shrink {
     height: 50px;
     line-height: 10px;
-    
 }
 
 nav ul li {
@@ -64,7 +62,7 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -116,7 +114,6 @@ li {
         width: 90%;
     }
 }
-
 
 .div1{
     width:100%;
@@ -196,7 +193,6 @@ li {
 
 .product-text {
     font-size: 3.5rem;
-    
 }
 
 .product-benefits {
@@ -209,51 +205,93 @@ li {
 } */
 
 
-
 /* .introduction {
     display:flex;
     flex-direction: row;
     justify-content: center;
 } */
 
-#logo {
-    width:100px;
-}
 
 .footer {
-    width:100%;
+    max-width:100%;
     height:70vh;
     background-color:#021750;
     margin-top:30px;
     display:flex;
     justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.footer-logo {
-    max-width:300px;
-    height:70px;
-}
-
-#footer-logo{
-    width:260px;
-    height:70px;
-}
-
-
-.footer-contact {
-    width:600px;
-    height:500px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
     flex-direction: column;
-    color:white;
-    font-size:1.5rem;
-    line-height:2.3rem;
+    justify-content: space-evenly; 
 }
-.contact-us {
-    margin-bottom: 50px;
+
+.footer-picture {
+    width:100%;
+    height:25vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+#logo-footer {
+    width:250px;
+}
+
+.content-container {
+    max-width:100%;
+    height:40vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.footerContact {
+    width:1000px;
+    height:25vh;
+    color:rgb(237, 232, 232);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+    line-height:30px;
+    border-right: 1px solid white;
+}
+
+.footerAbout { 
+    width:1000px;
+    height:25vh;
+    color:rgb(237, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right:1px solid white;
+}
+
+.about-us {
+    width:400px;
+    text-align: center;
+}
+
+.icons{
+    padding-top:20px;
+    width:200px;
+    height:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.company {
+    width:1000px;
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(237, 232, 232);
+}
+
+.header-one {
+    justify-self: start;
 }

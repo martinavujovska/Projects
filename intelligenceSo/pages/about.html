@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Questrial&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <ul>
+            <li><a href="./homepage.html" target="_blank">Home</a></li>
+            <li><a href="./features.html" target="_blank">Features</a></li>
+            <li><a href="./about.html" target="_blank">About</a></li>
+            <li><a href="./news.html" target="_blank">News</a></li>
+            <li><a href="lang">DK</a></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="text-container">
+                <div class="contact-us">
+                    <p class="heading">Contact us</p>
+                    <p class="paragraph">You can connect with us when you need help!</p>
+                </div>
+                <div class="info">
+                    <div class="info-container">
+                        <div class="phone">
+                            <i class="fa fa-solid fa-phone" id="icon"></i>
+                        </div>
+                        <div class="map">
+                            <i class="fa fa-solid fa-map" id="icon"></i>
+                        </div>
+                        <div class="mail">
+                            <i class="fa fa-regular fa-envelope" id="icon"></i>
+                        </div>
+                    </div>
+                    <div class="info-text-container">
+                        <div class="phone-text">
+                          
+                           <p class="paragraph-bolder">Contact us</p>
+                           <p class="paragraph-faded">Howitzvej 60,</p>
+                           <p class="paragraph-faded">1 sal. 2000</p>
+                           <p class="paragraph-faded">Frederiksberg, Denmark</p>
+                           
+                        </div>
+                        <div class="map-text">
+                           <p class="paragraph-bolder">
+                            Phone</p>
+                            <p class="paragraph-faded">+45 31120078</p>
+                        </div>
+                        <div class="mail-text">
+                            <p class="paragraph-bolder">Email</p>
+                            <p class="paragraph-faded">norliga@norliga.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <form>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    <input type="text" id="phone" name="phonenumber" placeholder="Phone Number">
+                    <textarea id="textarea" name="textarea" placeholder="Please describe what you need" rows="7" cols="95">
+                    </textarea>
+                    <button id="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-picture">
+           <img src="../img/logo.png" id="logo-footer">
+        </div>
+        
+        <div class="content-container">
+            <div class="footerContact">
+                <div class="contact-us-footer">
+                    <h1>Contact us</h1>
+                    
+                </div>
+                <div class="contact">
+                    <span class="contact-text">norliga@norliga.com</span>
+                    <br>
+                    <span>+45 31120078</span>
+                </div>
+            </div>
+            <div class="footerAbout">
+                <h1>About</h1>
+                
+                <div class="about-us">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem quaerat animi iste dignissimos ullam at autem quo maiores? Quis repudiandae modi esse. Nisi tempore eligendi sequi, numquam ipsam quas, nam tenetur facilis molestias 
+                        natus iusto quo.</span>
+                </div>
+                <div class="icons">
+                <i class="fa fa-brands fa-linkedin"></i>
+                <i class="fa fa-brands fa-facebook-f"></i>
+                <i class="fa fa-brands fa-google"></i>
+            </div>
+            </div>
+            <div class="company">
+                <div class="header-one">
+                <h1>Company</h1>
+            </div>
+                <div class="company-about">
+                    <a href="./about.html" target="_blank">About</a>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+
+
+    <script src="../navbar.js"></script>
 </body>
+
 </html>

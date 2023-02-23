@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -51,121 +55,172 @@ li {
 }
 
 .wrapper {
-    width: 100%;
-    height: auto;
-    display: flex;
+    max-width:100%;
+    width:100%;
+    height:auto;
+    top:70px;
+    background-color:#fff;
+    display:flex;
     justify-content: center;
-    background-image: url(../img/sky-clouds-4k-5k-2560x1440.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+    
 }
 
-.container {
-    width: 70%;
-    background-color: white;
+.card-container {
+    max-width:90vw;
+    width: 90vw;
     height: auto;
-    margin-top: 70px;
-    display: flex;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding:20px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 20px;
+}
+
+.card {
+    width:400px;
+    height:400px;
+    background-color:#fff; 
+    margin-bottom:30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.div-one {
-    max-width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.text {
-    width: 900px;
-    word-wrap: break-word;
-    line-height: 2rem;
-    font-size: 2rem;
+    align-items:center;
     text-align: center;
+    padding:70px;
+}   
 
+.circle{
+    width:50px;
+    height:50px;
+    background-color:#021750;
+    border-radius:30px;
+    color:white;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.card-content {
+    height:200px;
+    overflow: hidden;
+}
+
+button {
+    background-color: grey;
+    width:120px;
+    height:35px;
+    color:white;
+    border-radius:5px;
+    outline:none;
+    border:none;
 }
 
 
-/* 
-#mac {
-    width:500px;
-    
-} */
 
-#power-saving {
-    width: 300px;
+@media only screen and (min-width : 1224px)  {
+.card-container {
+    width:50vw;
+}
 }
 
-.div-two {
-    max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
+@media only screen   
+and (max-width : 2000px)   
+  {
+    .card-container {
+        width:90vw;
+        
+    }
+}
+
+.footer {
+    max-width:100%;
+    height:70vh;
+    background-color:#021750;
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.footer-picture {
+    width:100%;
+    height:25vh;
+    display:flex;
+    justify-content: center;
     align-items: center;
 }
 
-/* #ipad{
-    width:350px;
-} */
-
-.div-three {
-    max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
+#logo-footer {
+    width:250px;
 }
 
-.div-four {
-    max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
+.content-container {
+    max-width:100%;
+    height:40vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
 }
 
-.div-five {
-    max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
+.footerContact {
+    width:1000px;
+    height:25vh;
+    color:rgb(237, 232, 232);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    font-weight:bolder;
+    line-height:5px;
 }
 
-.div-six {
-    max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
+.footerAbout { 
+    width:1000px;
+    height:25vh;
+    color:rgb(237, 232, 232);
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-us {
+    width:400px;
+    text-align: center;
+}
+
+.icons{
+    padding-top:20px;
+    width:200px;
+    height:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.company {
+    width:1000px;
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(237, 232, 232);
+    margin-bottom:100px;
+}
+
+.header-one {
+    justify-self: start;
 }

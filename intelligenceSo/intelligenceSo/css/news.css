@@ -1,0 +1,274 @@
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.4rem;
+    transition: 0.2s;
+    color: rgb(105, 125, 203);
+}
+
+.header {
+    background: #021750;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    transition: 0.4s;
+    display: inline;
+    line-height: 30px;
+}
+
+.header.shrink {
+    height: 50px;
+    line-height: 10px;
+    background-color: #021750;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    padding: 20px;
+}
+
+.wrapper { 
+    width:100%;
+    height:100vh;
+    top:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.container { 
+    width:90%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+    flex-direction: row;
+}
+
+.first-card {
+    width:20%;
+    height:600px;
+    border-radius:10px;
+    background-color: white;
+    display:flex;
+    justify-content: space space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second-card {
+    width:20%;
+    height:600px;
+    border-radius:10px;
+    background-color: white;
+    display:flex;
+    justify-content: space space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.third-card {
+    width:20%;
+    height:600px;
+    border-radius:10px;
+    background-color: white;
+    display:flex;
+    justify-content: space space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img {
+    width:100%;
+    height:400px;
+}
+
+.blog-picture {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card-text {
+    width: 300px;
+}
+
+.footer {
+    max-width: 100%;
+    height: 350px;
+    background-color: #021750;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+}
+
+#footer-logo-picture { 
+    height:270px;
+    width: 400px;
+}
+
+.footer-logo {
+    height:100px;
+    width:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-container {
+    max-width: 70vw;
+    width: 70vw;
+    height: 60vh;
+    overflow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-contact {
+    width:300px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1;
+    color:white;
+}
+
+.footer-about {
+    width:300px;
+    height:200px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+    color:white;
+}
+
+.footer-company {
+    width:300px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color:white;
+}
+
+.contact-text{ 
+    height:150px;
+}
+
+.footer-about { 
+    height:150px;
+}
+
+.company-text {
+    height:150px;
+    padding-left:50px;
+}
+
+@media only screen and (min-width : 1824px) {
+
+    .footer-content-container {
+        width: 60vw;
+        height: 60vh;
+    }
+    .footer { 
+        width: 100%;
+        height: 40vh;
+    }
+    .first-card,
+    .second-card,
+    .third-card {
+        width: 20%;
+        height: 600px;
+    }
+
+    .blog-picture {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width : 1224px) {
+    .first-card,
+    .second-card,
+    .third-card {
+        height: 500px;
+        width: 400px;
+    }
+    .blog-picture {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    margin-top:60rem;
+
+   }
+   .first-card, 
+   .second-card, 
+   .third-card {
+    width:90%;
+    margin:20px;
+    height:500px;
+   }
+   
+   .blog-picture {
+    width:350px;
+   }
+
+   .footer {
+    display: none;
+   }
+}
